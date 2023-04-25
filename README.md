@@ -5,7 +5,7 @@ Desafio da empresa Spedy.
 Esse site foi construído usando PHP no seu Backend, já no Frontend foi usado as tecnologias HTML5 e CSS3, junto com alguns pequenos trechos de Javascript.
 <hr>
 
-<li><p>Funcionalidade/Estrutura</p></li>
+<li>Funcionalidade/Estrutura</li>
 - Login/Cadastro de usuário.<br>
 - Cada usuário tem seus classificados, junto com sua própria área de classificados.<br>
 - Busca pelo seus classificados.<br>
