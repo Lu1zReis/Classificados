@@ -1,0 +1,211 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.cabecalho-items {
+    padding: 15px;
+    display: block;   
+}
+.cabecalho-items-title {
+    text-align: center;
+    border-bottom: 0.3px solid rgb(0, 0, 0);
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.container {
+    display: flex; /* define um layout flexível */
+    justify-content: space-evenly; /* distribui os itens igualmente na linha */
+    margin-left: 28%;
+  }
+  
+  .item {
+    flex-basis: 55%; /* define a largura dos itens */
+  }
+  
+  .item img {
+    display: block; /* remove espaços extras abaixo da imagem */
+    max-width: 100%; /* limita a largura da imagem para o tamanho do item */
+    height: auto; /* mantém a proporção da imagem */
+  }
+  
+  .item p {
+    margin-top: 10px; /* adiciona um espaço entre a imagem e a descrição */
+    margin-left: -5px;
+  }
+  .img {
+    width: 45px;
+  }
+.descr {
+  padding-left: 7px;
+}
+  .button {
+    position: relative;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0300a2;
+    background-color: #7257fa;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(30px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #3c3852;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .button:hover {
+    background: #3c3852;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+    background-color: #3c3852;
+  }
+  
+  .button:active {
+    border: 1px solid #3c3852;
+  }
+
+#linha {
+    border: 0.5px solid black;
+}
+.main {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  margin-top: 40px;
+}
+.formulario {
+  text-align: center;
+}
+.input {
+  width: 100%;
+  max-width: 220px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+  
+}
+
+.input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border: 2px solid grey;
+}
+/* this card is inspired form this - https://georgefrancis.dev/ */
+.secao {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.card {
+  --border-radius: 0.75rem;
+  --primary-color: #7257fa;
+  --secondary-color: #3c3852;
+  width: 210px;
+  font-family: "Arial";
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  background: #f1f1f3;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+  position: relative;
+}
+
+.card > * + * {
+  margin-top: 1.1em;
+}
+
+.card .card__content {
+  color: var(--secondary-color);
+  font-size: 0.86rem;
+}
+
+.card .card__title {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card .card__date {
+  color: #6e6b80;
+  font-size: 0.8rem;
+}
+
+.card .card__arrow {
+  position: absolute;
+  background: var(--primary-color);
+  padding: 0.4rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  bottom: 0;
+  right: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card svg {
+  transition: 0.2s;
+}
+
+/* hover */
+.card:hover .card__title {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.card:hover .card__arrow {
+  background: #111;
+}
+
+.card:hover .card__arrow svg {
+  transform: translateX(3px);
+}
+.procura {
+  font-size: medium;
+  text-align: center;
+  color: grey;
+  margin-top: 30%;
+}
