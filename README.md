@@ -13,7 +13,7 @@ Esse site foi construído usando PHP no seu Backend, já no Frontend foi usado a
 - Uma vez logado, podemos ver com mais detalhes o <i>card</i> de outros usuários, mas editar ou excluir fica a exclusividade do criador do <i>card</i>.<br>
 
 <hr>
- <p><b>Abaixo está o vídeo do site finalizado com link para o Youtube, Além das fotos abaixo anexadas aqui no GitHub!</b></p>
-  
-  
-[estagio-video.zip](https://github.com/Lu1zReis/Classificados/files/11323139/estagio-video.zip)
+ <p><b>Abaixo está o vídeo do site finalizado com link para o Youtube ou .zip caso queira fazer o Download</b></p>
+ <p><b>Além das fotos abaixo anexadas aqui no GitHub!</b></p>
+ <li>https://youtu.be/iOeBEiebECA</li>
+<li>[classificados-spedy.zip](https://github.com/Lu1zReis/Classificados/files/11323287/classificados-spedy.zip)</li>
