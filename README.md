@@ -17,6 +17,7 @@ Esse site foi construído usando PHP no seu Backend, já no Frontend foi usado a
  <li>https://youtu.be/iOeBEiebECA</li>
 <li>[classificados-spedy.zip](https://github.com/Lu1zReis/Classificados/files/11323287/classificados-spedy.zip)</li>
 <hr>
+`
  <p><b>Além das fotos abaixo anexadas aqui no GitHub!</b></p>
  ~~~<li>Página Inicial</li>
  ![image](https://user-images.githubusercontent.com/69827778/234303899-2fe1bc84-bbc0-4e27-9b2e-f716d87a752a.png)<br>
