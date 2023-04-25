@@ -19,7 +19,7 @@ Esse site foi construído usando PHP no seu Backend, já no Frontend foi usado a
 <hr>
  <p><b>Além das fotos abaixo anexadas aqui no GitHub!</b></p>
  <li>Página Inicial</li>
- ![image](https://user-images.githubusercontent.com/69827778/234303899-2fe1bc84-bbc0-4e27-9b2e-f716d87a752a.png)
+ ![image](https://user-images.githubusercontent.com/69827778/234303899-2fe1bc84-bbc0-4e27-9b2e-f716d87a752a.png)<br>
  ---
  <li>Página de Login/Cadastro</li>
 ![image](https://user-images.githubusercontent.com/69827778/234304195-86d38e85-b91f-4e70-9b3e-58657c936c89.png)
