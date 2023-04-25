@@ -16,3 +16,4 @@ Esse site foi construído usando PHP no seu Backend, já no Frontend foi usado a
  <p><b>Abaixo está o vídeo do site finalizado com link para o Youtube, Além das fotos abaixo anexadas aqui no GitHub!</b></p>
   
   
+[estagio-video.zip](https://github.com/Lu1zReis/Classificados/files/11323139/estagio-video.zip)
