@@ -12,7 +12,7 @@ Esse site foi construído usando PHP no seu Backend, já no Frontend foi usado a
 - Área <i>main</i> com todos os classificados reunidos de todos os usuários.<br>
 - Uma vez logado, podemos ver com mais detalhes o <i>card</i> de outros usuários, mas editar ou excluir fica a exclusividade do criador do <i>card</i>.<br>
 
-<h>
-  <p>Abaixo está o vídeo do site finalizado com link para o Youtube, Além das fotos abaixo anexadas aqui no GitHub!</p>
+<hr>
+ <p>Abaixo está o vídeo do site finalizado com link para o Youtube, Além das fotos abaixo anexadas aqui no GitHub!</p>
   
   
